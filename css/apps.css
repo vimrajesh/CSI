@@ -1,0 +1,45 @@
+
+          
+.btn.btn-danger.p-0 {
+    background-color: #151b29;
+    color: #fd0000;
+    border: 4px solid;
+    padding: 2em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+}  
+.btn.btn-danger.p-0:hover {
+    border-color: #f1ff5c;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0.5em 0.5em -0.4em;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+}
+
+.btn.btn-danger.p-0:hover .temp-text {
+    color: #f1ff5c;
+    background-color:  black;
+    text-align: center;
+} 
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #fd0000;
+}
+
+/* Design Decision 2 */
+/* .btn.btn-danger.p-0 {
+    background-color: #151b29;
+    color: #fd0000;
+    border: 4px solid;
+    padding: 2em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+}
+
+.btn.btn-danger.p-0:hover {
+    border-color: #f1ff5c;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+} */

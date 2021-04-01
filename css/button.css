@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url('../images/123.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .manage-buttons{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  
+  .aa {
+    font-family: 'Kiwi Maru', serif;
+    background: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    margin: 0.5em;
+    border-radius: 10px 25px;
+  }
+  
+  .aa:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+
+.t1{
+    font-family: 'Kiwi Maru', serif;
+    color: rgb(255, 255, 255);
+    font-size: 2em!important;
+    border: 2px solid #f1ff5c;
+    padding: 1em 1em;
+    align-self: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    border-radius: 40px;
+
+}
+.t1:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+}
+.t2{
+    font-family: 'Kiwi Maru', serif;
+    color: white!important;
+    font-size: 1.2em!important;
+    border: 2px solid #f1ff5c;
+    padding: 1em 2em;
+    text-align: left;
+    max-width:900px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.zz{
+    font-size: 2em!important;
+    text-decoration: underline;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.colz:nth-of-type(2n){
+    color: rgb(253, 38, 0);
+    font-size: 1.25em;
+}
+.colz:nth-of-type(2n+1){
+    color: rgba(223, 238, 14, 0.945);
+    font-size: 1.25em;
+}
+@media (max-width: 800px){
+    body {
+        background-repeat: no-repeat;
+        background-position:right;
+      }
+    .t1{
+        border-radius: 20px;
+    }
+    .aa{
+        margin: 0 0.1em;
+    }
+    .manage-buttons{
+     flex-direction: column;
+    }
+}

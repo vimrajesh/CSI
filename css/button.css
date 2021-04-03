@@ -21,20 +21,36 @@ body {
   
   .aa {
     font-family: 'Kiwi Maru', serif;
-    background: none;
+    /* background: none;
     background-color: rgba(0, 0, 0, 0.8);
     color:#ffa260;
     border: 2px solid;
     padding: 1em 2em;
     font-size: 1em;
-    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
-    margin: 0.5em;
+    margin: 0.5em; */
+    background-color: rgba(0, 0, 0, 0.9);
+    color:#ffffff;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration-line: initial;
+    text-transform: uppercase;
+    transform: translateY(0px);
     border-radius: 10px 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(45, 143, 221);
+    border-image: initial;
+    border-radius: 100px;
+    margin: 0px auto;
+    padding: 16px 40px;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s,transform 0.25s;
+    transition: transform 0.2s ease-in-out 0s;
   }
   
   .aa:hover {
     border-color: #f1ff5c;
-    color: white;
+    color: #f1ff5c;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
     transform: translateY(-0.25em);
     cursor: pointer;
@@ -77,13 +93,15 @@ body {
     font-family: 'Kiwi Maru', serif;
 }
 
-.colz:nth-of-type(2n){
-    color: rgb(253, 38, 0);
-    font-size: 1.25em;
+.colz{
+    color: rgb(45, 143, 221);
+    /* font-size: 1.25em; */
+    font-weight: 500;
 }
-.colz:nth-of-type(2n+1){
-    color: rgba(223, 238, 14, 0.945);
-    font-size: 1.25em;
+.colz1{
+    color: rgb(190, 209, 20);
+    /* font-size: 1.25em; */
+    font-weight: 500;
 }
 @media (max-width: 800px){
     body {

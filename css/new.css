@@ -4,9 +4,13 @@ body{
 }
 
 h1{
-    font-family: 'Kiwi Maru', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+}
+
+.parbg{
+    font-weight: 400;
+    /* color: white; */
 }
 
 .navbar-brand{
